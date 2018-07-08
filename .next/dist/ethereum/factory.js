@@ -1,0 +1,15 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _web = require("./web3");
+
+var CampaignFactory = require("./build/CampaignFactory");
+
+var instance = new _web.web3.eth.Contract(JSON.parse(CampaignFactory.interface), "0xaFd165BB5Fd4c27eE4F5cc1D2B4e84E6f9EE6Aa5");
+instance.setProvider(_web.provider);
+
+exports.default = instance;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV0aGVyZXVtXFxmYWN0b3J5LmpzIl0sIm5hbWVzIjpbIndlYjMiLCJwcm92aWRlciIsIkNhbXBhaWduRmFjdG9yeSIsInJlcXVpcmUiLCJpbnN0YW5jZSIsImV0aCIsIkNvbnRyYWN0IiwiSlNPTiIsInBhcnNlIiwiaW50ZXJmYWNlIiwic2V0UHJvdmlkZXIiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLEFBQVMsQUFBVCxBQUFlLEFBQWYsQUFBK0IsQUFBL0I7O0FBQ0EsSUFBTSxrQkFBa0IsUUFBUSxBQUFSLEFBQXhCOztBQUVBLElBQU0sV0FBVyxJQUFJLFVBQUssQUFBTCxJQUFTLEFBQWIsU0FDZixLQUFLLEFBQUwsTUFBVyxnQkFBZ0IsQUFBM0IsQUFEZSxZQUVmLEFBRmUsQUFBakI7QUFJQSxTQUFTLEFBQVQsQUFBcUIsQUFBckIsQUFFQTs7a0JBQWUsQUFBZiIsImZpbGUiOiJmYWN0b3J5LmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3RiaGF0dGFjaGFyeWEvRGVza3RvcC9Tb2Z0d2FyZXMvUGVyZkluZnJhL0tpY2tzdGFydCJ9
