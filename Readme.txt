@@ -1,4 +1,4 @@
-Dapp for corwdfunding
+Dapp for crowdfunding
 
 Bockchain : Ethereum /Solidity
 
